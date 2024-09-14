@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="https://fonts.google.com/share?selection.family=DM+Serif+Text:ital@0;1|New+Amsterdam" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlogWebsite</title>
+</head>
+<body>
+    <header id="main-header">
+        <!-- the content of the header goes here -->
+         <h1 id="logo" >BrightBlog</h1>
+         <hr>
+         <nav> 
+            <ul id="nav-ul"> 
+                <li><a href="https://code.visualstudio.com/" class="navbutton">Home</a></li>
+                <li><a href="https://excalidraw.com/" class="navbutton">Whiteboard</a></li>
+                <li><a href="https://chatgpt.com/c/834eb378-59ac-409f-9576-a3c8a48f5cdc" class="navbutton">ChatGPT</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <!-- articles header goes here -->
+                 <h2> Fun facts about dogs!</h2>
+                 <br>
+                 <h5> Read Time: 5 minutes</h5>
+                 <br>
+            </header>
+            <main>
+                <!-- main section of the ARTICLE tag -->
+                 <!-- the p tag is used as a paragraph--> 
+                <p> Some text about dogs!</p>
+                <p> Here are some infomation </p>
+                <!-- Every new paragraph needs a new 'p'-->
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ullam saepe officiis eos ex rem excepturi voluptatum modi debitis animi illum ipsa ut, quos laudantium delectus illo temporibus nulla, consequatur esse distinctio placeat magni? Mollitia numquam enim quia? Autem exercitationem voluptate doloremque, cupiditate perspiciatis quis magni saepe obcaecati, alias facilis omnis harum tempora sequi reiciendis. Aspernatur quis ex dignissimos quam tempore eaque esse voluptates quibusdam culpa omnis est quos dolores, tenetur, eius, dolorum consequatur ducimus assumenda soluta hic pariatur dolor doloremque sapiente porro sunt? Rem, incidunt. Error nesciunt porro cupiditate ut, sequi, rem velit explicabo eum facilis neque veritatis odio.
+                 </p>
+                  <!-- lorem is almost like a word count (empty words)-->
+                   <blockquote>
+                    'I love puppies!' - <cite> unknown person </cite>
+                    <!-- the cite tag puts the words into italics -->
+                   </blockquote>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse, amet libero possimus rem praesentium tempora fugiat sed a, incidunt accusamus vero, ut iusto provident. Incidunt, blanditiis esse nemo quasi maxime, minima reiciendis veritatis magnam eaque reprehenderit perferendis soluta totam neque eum voluptatem ratione est. Eaque repellat nobis recusandae, ipsa deleniti praesentium excepturi doloribus libero expedita ducimus ratione corrupti quasi aspernatur, ex illo consectetur delectus cupiditate voluptatibus ea! Rerum pariatur eius voluptate reiciendis quas! Hic id nulla itaque deleniti totam!</p>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi harum quaerat, eius laudantium natus sed ipsum ipsam obcaecati corporis eaque odio aperiam quod illum, voluptatibus delectus itaque omnis in tempore magni? Sint expedita vitae tenetur esse officia eos dolorem ad corrupti provident accusamus voluptatum quia neque itaque velit minus suscipit, saepe animi autem repellendus consectetur blanditiis fugiat nulla aliquid totam? Commodi adipisci repellendus enim, numquam amet voluptatem veritatis cumque pariatur quae itaque. Temporibus ex odit nam exercitationem cumque perspiciatis recusandae repellat excepturi. Earum laborum itaque quod vel deleniti facere sequi similique error! Tempora quae iste voluptate sit esse nam asperiores consequuntur error perferendis modi expedita culpa eveniet eaque commodi tempore voluptatibus nostrum rem laudantium quaerat, repellat amet tenetur quas quis provident! Magni mollitia enim consectetur. Inventore cupiditate magni deleniti distinctio vitae iusto hic omnis odit ipsa ipsum dolore, culpa animi quaerat facilis iure deserunt ab, asperiores repellat sequi perspiciatis doloribus.</p>
+            </main>
+            <br>
+            <h2> Author : Mishika Gunawardena</h2>
+            <img src='https://placebear.com/300/200' alt="profile pic of a bear">
+            <!-- img = image tag, src= source of image, alt= used if image can't be loaded, gives description -->
+             <h5> Last Posted : 01-08-2024 </h5>
+             <a href="https://www.linkedin.com/feed/" target="_blank"> Authors profile </a>
+             <!-- the footer goes here (typically)-->
+        </article>
+        <hr>
+            </main>
+        </article>
+        <!-- main content of the website can go here -->
+    </main>
+    <hr>
+    <h3> Sign up for our Newsletter! </h3>
+    <form action="" method=""> 
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name" required>
+        <br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" required> 
+        <br>
+
+        <label for="email">Email ID:</label>
+        <input type="text" name="email" id="email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+
+        <label for="favourite_animal">Favourite Animal:</label>
+        <input type="radio" name="favourite_animal" id="dog" value="dog">
+        <label for="dog">Dog</label>
+        <input type="radio" name="favourite_animal" id="cat" value="cat">
+        <label for="cat">Cat</label>
+        <input type="radio" name="favourite_animal" id="fish" value="fish">
+        <label for="fish">Fish</label>
+        <input type="radio" name="favourite_animal" id="other" value="other">
+        <label for="other">Other</label>
+        <br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="england">England</option>
+            <option value="scotland">Scotland</option>
+            <option value="northern_ireland">Northern Ireland</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        <label for="bio">Biography:</label>
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+        <br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our Newsletter</label>
+        <br>
+
+        <input type="submit" value="send!">
+        
+
+    </form>
+    <br>
+   </main> 
+    <footer>
+        <h4>Bright Blog Site</h4>
+        <br>
+        <section>
+            <nav>
+                <ul>
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Carees </a></li>
+                    </div>   
+                    <div>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </div>      
+                <!-- the div tag is used to separate the HTML tags -->  
+                </ul>
+            </nav>
+        </section>
+
+    </footer>
+</body>
+</html>
